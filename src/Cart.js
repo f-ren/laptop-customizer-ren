@@ -22,7 +22,7 @@ export default class extends React.Component {
       <section className="main__summary">
         <h2>Your cart</h2>
         {summary}
-        <Total totalValue={this.props.totalValue} />
+        <Total selected={this.props.selected} value={this.props.value} />
       </section>
     );
   }
